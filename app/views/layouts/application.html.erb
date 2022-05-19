@@ -11,6 +11,12 @@
   </head>
 
   <body>
+  <div class="banner">
+    <div class="logo"><%= link_to 'Simple Airbnb', flats_path %></div>
+    <div class="add-flat"><%= link_to 'Add flat', new_flat_path %></div>
+  </div>
+  <div class="container">
     <%= yield %>
+  </div>
   </body>
 </html>
